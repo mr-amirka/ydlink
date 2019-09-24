@@ -1,0 +1,35 @@
+{
+  "name": "ydlink",
+  "version": "0.0.0",
+  "description": "Converter of the Yandex.Disk public link to direct link",
+  "main": "./index.js",
+  "keywords": [
+    "Yandex",
+    "Disk",
+    "Yandex.Disk",
+    "public_key",
+    "public link",
+    "link",
+    "url",
+    "href",
+    "cli"
+  ],
+  "bin": {
+    "ydlink": "./index.js"
+  },
+  "author": {
+    "name": "Amir Absolutely",
+    "email": "mr.amirka@ya.ru",
+    "url": "https://github.com/mr-amirka"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mr-amirka/ydlink.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.18.0",
+    "mn-utils": "*",
+    "mn-back-utils": "*"
+  }
+}
